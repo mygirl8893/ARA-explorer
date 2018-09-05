@@ -36,11 +36,11 @@ Create user with read/write access:
 
 ### Get the source
 
-    git clone https://github.com/suprnurd/ciquidus explorer
+    git clone https://github.com/vpcproject/explorermn.git
 
 ### Install node modules
 
-    cd explorer && npm install --production
+    cd explorermn && npm install --production
 
 ### Configure
 
