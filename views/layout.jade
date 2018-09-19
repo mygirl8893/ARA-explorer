@@ -170,16 +170,18 @@ html
                 else
                   label#difficulty -
         .col-md-2
-         .panel.panel-default.hidden-sm.hidden-xs
-            .panel-heading
-              strong #{settings.locale.masternodecount}
-            .panel-body
-              #masternodepanel
-                span.glyphicon.fa.fa-exclamation-triangle
-                label#masternodeCountOffline -
-                label &nbsp;&#x2F;&nbsp;        
-                label#masternodeCountOnline -
-                span.glyphicon.fa.fa-check-circle
+          img(src='#{settings.logo}', style='margin-top:-15px;height:128px;')
+        //.col-md-2
+        // .panel.panel-default.hidden-sm.hidden-xs
+        //    .panel-heading
+        //      strong #{settings.locale.masternodecount}
+        //    .panel-body
+        //      #masternodepanel
+        //        span.glyphicon.fa.fa-exclamation-triangle
+        //        label#masternodeCountOffline -
+        //        label &nbsp;&#x2F;&nbsp;        
+        //        label#masternodeCountOnline -
+        //        span.glyphicon.fa.fa-check-circle
         .col-md-2
           .panel.panel-default.hidden-sm.hidden-xs
             .panel-heading
